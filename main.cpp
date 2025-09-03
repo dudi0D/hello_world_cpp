@@ -2,9 +2,15 @@
 
 using namespace std;
 
+void f() {
+    int x;
+}
+
 int main() {
     cout << "Hello World!" << endl;
-    char c;
-    cin >> c;
+    int x;
+    cin >> x;
+    f();
     return 0;
 }
+
